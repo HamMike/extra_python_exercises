@@ -8,3 +8,9 @@
 
 
 # *** your code here ***
+
+#Steve's solution
+def find_odd(a):
+    return [x for x in a if a.count(x) < 2][0]
+
+print(find_odd([1,1,2,2,3,3,4,5,5,6,6,7,7]))

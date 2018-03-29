@@ -12,3 +12,12 @@
 
 
 # *** your code here ***
+#didn't get
+length = int(input('input length'))
+def fibo(length):
+  list = [0,1]
+  for i in range(2, length):
+      list = list.extend[-1]+[1]
+  print(list)
+
+fibo(length)

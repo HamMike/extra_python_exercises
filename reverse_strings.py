@@ -9,3 +9,5 @@
 
 
 # *** your code here ***
+string = input("Type something:")
+print(string[::-1])

@@ -36,3 +36,20 @@
 
 
 # *** your code here ***
+ 
+from random import *
+number = randint(1, 100)
+print(number)
+print("Guess a number between 1 and 100");
+guess = int(input('guess number'))
+
+while True:
+  if guess < number:
+    print("Oh, you are low my friend. Why dont't you try again.")
+    guess = int(input())
+  elif guess > number:
+    print("You are high, but I like where you at. Guess again.")
+    guess = int(input())
+  else:
+    print("Bingo! You got it!")
+    break

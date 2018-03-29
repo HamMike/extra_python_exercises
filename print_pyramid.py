@@ -26,3 +26,7 @@
 
 
 # *** your code here ***
+height = int(input('get height'));
+
+for i in range(height):
+  print(" " * (height - i) + "#" * (i + 1));
